@@ -1,5 +1,5 @@
 
-import { Product } from "../../models/product.model";
+import { Product } from "../../models/product.model.js";
 
 export const getProductbycategoryId=async (req,reply)=>{
     const {categoryId}=req.params;

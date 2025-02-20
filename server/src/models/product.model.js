@@ -17,7 +17,7 @@ const product=new mongoose.Schema({
         type:Number,
     },
     quantity:{
-        type:Number,
+        type:String,
         required:true
     },
     category:{

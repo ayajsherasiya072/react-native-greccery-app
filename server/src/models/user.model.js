@@ -101,7 +101,7 @@ const adminSchema = new mongoose.Schema(
       default: "admin",
     },
   },
-  { timestamps: ture }
+  { timestamps: true }
 );
 
 export const Customer = mongoose.model("Customer", customerSchema);
