@@ -1,6 +1,5 @@
 import {Customer,DeliveryPartner} from '../../models/user.model.js'
 import {Order} from '../../models/order.model.js'
-import {Product} from '../../models/product.model.js'
 import {Branch} from '../../models/branch.model.js'
 
 export const createOrder=async(req,reply)=>{
